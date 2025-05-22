@@ -31,22 +31,12 @@ A React-based chatbot that supports plugin-style tools and natural language comm
 
 ## Project Structure
 
-src/
-├── components/
-│   ├── ChatInput.jsx
-│   ├── ChatWindow.jsx
-│   ├── MessageBubble.jsx
-│   └── PluginCard.jsx
+src
+├── components > ChatInput.jsx, ChatWindow.jsx, MessageBubble.jsx, PluginCard.jsx
 │
-├── plugins/
-│   ├── pluginManager.js
-│   ├── weatherPlugin.js
-│   ├── calcPlugin.js
-│   └── definePlugin.js
+├── plugins > pluginManager.jsx, weatherPlugin.jsx, calcPlugin.jsx, definePlugin.js
 │
-├── utils/
-│   ├── uuid.js
-│   └── nlpMapper.js
+├── utils > uuid.jsx, nlpMapper.jsx
 │
 └── app.jsx
 
